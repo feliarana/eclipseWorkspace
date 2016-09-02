@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+/media/data/common/documents/Synced/OneDrive/Dropbox/cursandoAhora/taller Java/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3281349424.index
+620354260.index
+1817195983.index
+1148496822.index
+1504789774.index

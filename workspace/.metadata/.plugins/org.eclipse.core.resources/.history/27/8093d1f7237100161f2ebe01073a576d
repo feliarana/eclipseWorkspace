@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<metacharset=UTF-8>
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="ServletHola" method="post">
+		Ingrese su nombre: <input type="text" name="nombre"> <input
+			type="submit" name="Enviar">
+
+	</form>
+
+</body>
+</html>

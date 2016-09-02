@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="sitioestatico" name="sitioestatico" path="/media/data/common/documents/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/sitioestatico" type="static"/>
+</server>

@@ -1,0 +1,6 @@
+GitRepositoriesView.GitDirectories=
+GitRepositoriesView.GitDirectories.relative=
+RepositorySearchDialogSearchPath=/home/feliarana/Documents/git
+core_defaultRepositoryDir=/home/feliarana/Documents/git
+core_preferredMergeStrategy=jgit-default-mergeStrategy
+eclipse.preferences.version=1
