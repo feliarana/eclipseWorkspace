@@ -8,13 +8,34 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class ServletHello extends javax.servlet.http.HttpServlet {
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { 
-		response.setContentType("text/html");
-	PrintWriter out = response.getWriter();
-	out.println("<html><body>");
-	out.println("<h1> Hola " + request.getParameter("nombre")+" </h1>");
-	out.print(" </body></html>");
-	out.close();
+	private int counter = 0;
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		this.doPost(req, resp);
 	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.setContentType("text/html");
+
+		PrintWriter out = response.getWriter();
+		
+		out.print("Hi "+ request.getParameter("name") +"!.");
+		out.println("You are the visitor number: "+ counter);
+
+		counter++;
+
+		if (counter == 5) {
+			out.print("You win a price, visitor number:"+ counter);
+		}
+		out.close(); 
+	}
+	/*
+	 * PrintWriter out = response.getWriter(); out.println("<html><body>");
+	 * out.println("<h1> Hola " + request.getParameter("nombre")+" </h1>");
+	 * out.print(" </body></html>");
+	 */
 
 }

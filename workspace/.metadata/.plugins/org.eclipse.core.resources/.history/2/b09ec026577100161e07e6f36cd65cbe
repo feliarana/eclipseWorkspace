@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://localhost:35729/livereload.js"></script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="ServletHello" method="post">
+		Input your name: <input type="text" name="name"> <input
+			type="submit" name="Send">
+	</form>
+	<table>
+		<th>hiaaaaaa</th>
+	</table>
+</body>
+</html>
