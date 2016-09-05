@@ -33,6 +33,9 @@
 		<item value="265" key="size.y"/>
 		<item value="390" key="size.x"/>
 	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="0" key="pageIndex"/>
+	</section>
 	<section name="DialogBounds_OverrideMethodDialog">
 		<item value="538" key="DIALOG_WIDTH"/>
 		<item value="1|Noto Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>

@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=/media/data/common/documents/Eclipse/.git\:
-GitRepositoriesView.GitDirectories.relative=/media/data/common/documents/Eclipse/.git\:
+GitRepositoriesView.GitDirectories=
+GitRepositoriesView.GitDirectories.relative=
 RepositorySearchDialogSearchPath=/home/feliarana/Documents/git
 core_defaultRepositoryDir=/home/feliarana/Documents/git
 core_preferredMergeStrategy=jgit-default-mergeStrategy
